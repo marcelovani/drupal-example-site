@@ -1,0 +1,38 @@
+default:
+  formatters:
+    progress: true
+  suites:
+    default:
+      contexts:
+        - FeatureContext:
+            parameters:
+              element_wait_timeout: 5
+        - Drupal\DrupalExtension\Context\MarkupContext
+        - Drupal\DrupalExtension\Context\DrushContext
+        - Drupal\DrupalExtension\Context\MessageContext
+        - Drupal\DrupalExtension\Context\MinkContext
+        - Behat\DomainExtension\Context\DomainContext
+      filters:
+         tags: '~@wip'
+  extensions:
+    Behat\MinkExtension:
+      base-url: 'http://${host}'
+      files_path: '%paths.base%/features/files/'
+      goutte: ~
+      javascript_session: 'selenium2'
+      selenium2: ~
+    Drupal\DrupalExtension:
+      api_driver: 'drupal'
+      blackbox: ~
+      drupal:
+        drupal_root: '${root}/web'
+      region_map:
+        content: ".region-content"
+        header: ".region-header"
+        footer: ".region-footer"
+      selectors:
+        message_selector: '.messages'
+        error_message_selector: '.messages.messages--error'
+        success_message_selector: '.messages.messages--status'
+  formatters:
+    pretty: true
