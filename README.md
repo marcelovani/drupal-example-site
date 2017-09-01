@@ -1,5 +1,5 @@
 # Drupal Example site
-An example site to be used with Drupal Console commands
+An example of building a Drupal 7 site with Drupal Console commands + make file
 
 # Building this site using Drupal Console
 
