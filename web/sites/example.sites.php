@@ -39,5 +39,3 @@
  * Edit the lines below to define directory aliases. Remove the leading hash
  * signs to enable.
  */
-$sites['example.com'] = 'default';
-$sites['example.local'] = 'default';
