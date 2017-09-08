@@ -27,19 +27,6 @@
             }
          }
       },
-      "chosen":{
-         "type":"package",
-         "package":{
-            "name":"lib/chosen",
-            "version":"1.7.0",
-            "type":"drupal-library",
-            "source":{
-               "url":"https://github.com/harvesthq/chosen",
-               "type":"git",
-               "reference":"gh-pages"
-            }
-         }
-      },
       "ckeditor":{
          "type":"package",
          "package":{
@@ -97,7 +84,6 @@
       "drupal/core":"~7",
       "composer/installers":"^1.2",
       "drupal/rubik":"^4.0",
-      "lib/chosen":"^1.7",
       "lib/ckeditor":"^4.6",
       "lib/jquery.cycle":"^3.0",
       "lib/rrssb":"^1.6",
@@ -107,7 +93,6 @@
       "drupal/admin_menu":"^3.0@RC",
       "drupal/advagg":"^2.2",
       "drupal/captcha_keypad":"1.x-dev",
-      "drupal/chosen":"^2.0@beta",
       "drupal/devel":"^1.5",
       "drupal/entity":"^1.8",
       "drupal/entitycache":"^1.5",
