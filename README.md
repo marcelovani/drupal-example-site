@@ -21,7 +21,7 @@ You can write your own chain command or provide the repo for your own distro
 ### Manual steps
 - Make sure your database server is running and allows creation of databases
 - Create your vhost configuration to point to the directory of the drupal root.
-The DocumentRoot should point to the drupal root i.e. `/var/www/sites/drupal/docroot_d7-example`
+i.e. `/var/www/sites/drupal/docroot_d7-example`
 
 ### Build the site
 
