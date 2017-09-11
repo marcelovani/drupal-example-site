@@ -31,12 +31,10 @@ Example:
 
 `drupal site:build d7-example -e dev --branch=7.x`
 
-### Running drupal commands
+### Running drush commands
 
 Go to the site directory
 
 `cd /var/www/sites/drupal/docroot_d7-example/sites/example`
-
-Run drush commands
 
 `drush status`
