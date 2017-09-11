@@ -18,12 +18,10 @@ Example:
 
 `drupal site:build d8-example -e dev --branch=8.x`
 
-### Running drupal commands
+### Running drush commands
 
 Go to the site directory
 
 `cd /var/www/sites/drupal/d8-example/web`
-
-Run drush commands
 
 `drush status`
