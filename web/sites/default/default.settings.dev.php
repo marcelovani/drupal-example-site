@@ -5,6 +5,7 @@
  * This file gets copied as settings.dev.php when Drupal Console environment is 'dev'
  *
  */
+$settings['hash_salt'] = 'bwxzzrbNfkSaoRtLwVrw0ae41z_qizD4xqNHgYFKFfka3LqtarmQKt_Mh854YHDog3Tr9iAsgA';
 
 error_reporting(1);
 ini_set('display_errors', TRUE);
