@@ -18,13 +18,11 @@ Example:
 
 `drupal site:build d7-example-composer -e dev --branch=7.x-composer`
 
-### Running drupal commands
+### Running drush commands
 
 Go to the site directory
 
 `cd /var/www/sites/drupal/docroot_d7-example/web/core`
-
-Run drush commands
 
 `drush status`
 
