@@ -1,5 +1,5 @@
 # Drupal Example site
-Examples of Drupal sites to be build with Drupal Console https://github.com/dennisinteractive/drupal_console_commands
+Examples of Drupal sites to be built with Drupal Console https://github.com/dennisinteractive/drupal_console_commands
 
 Check the README.md on each individual branch 
 - 7.x
