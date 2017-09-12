@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "An example of building a Drupal 7 site with Drupal Console commands + make file",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-init": "^0.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennisinteractive/drupal-example-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennisinteractive/drupal-example-site/issues"
+  },
+  "homepage": "https://github.com/dennisinteractive/drupal-example-site#readme"
+}
