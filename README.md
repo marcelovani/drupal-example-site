@@ -13,7 +13,7 @@ Make sure you copy the site.yml into ~/.console/sites folder as per instructions
 
 Example:
 
-`distro:build -e dev --branch=7.x --name=d7-example --destination=/var/www/sites/drupal`
+`drupal distro:build -e dev --branch=7.x --name=d7-example --destination=/var/www/sites/drupal`
 
 This is chain command found in ~/.console/chain
 You can write your own chain command or provide the repo for your own distro
